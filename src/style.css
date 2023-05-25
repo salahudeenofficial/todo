@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+body {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    margin: 0%;
+    height: 100%;
+   
+}
+.projectsnav{
+    border-right: 1px solid black;
+   
+    height: 100%;
+    width: 300px ;
+    
+    
+    
+}
+.pntitle {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+    
+
+}
+.plus-icon{
+    height: 100%;
+    position: relative;
+    top: 22px;
+    left:15px;
+}
+.plus-icon:hover {
+    background-color: black;
+}
+.pwrapper {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+li {
+    border-radius: 5px;
+    list-style: none;
+    border: 1px solid black;
+    width: 100px;
+    height: 15px;
+
+
+}
+li:hover {
+   background-color: black;
+}
+.projectlist {
+    
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.delbtns {
+   
+    border-radius: 5px;
+}
+.delbtns:hover {
+    background-color: black;
+}
+
+form {
+    
+    display:flex;
+    flex-direction: column;
+   padding-bottom: 300px;
+    bottom: 30px;
+    align-items: center;
+    
+    gap:20px;
+    width: 100%;
+    
+
+}
+.projectspace {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    width: 100%;
+
+}
